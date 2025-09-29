@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dver2brd6ujvo"]
+
+[ext_resource type="PackedScene" uid="uid://dc68rsfnsot31" path="res://Scenes/Characters/character_body_2d.tscn" id="1_txmok"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(49, 49)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_txmok")]
+position = Vector2(49, 49)
